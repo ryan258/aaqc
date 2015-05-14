@@ -1,23 +1,51 @@
 ---
 layout: default
+title: The Damn Title
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="container">
+  <div class="row well">
+    <div class="col-sm-12 text-center">
+      <h2>Is Your Indoor Air Quality Safe???</h2>
+      <p class="lead"><i>Know what's in the air you are breathing!<br>
+        <strong>Call AAQC Today! 651-308-8659</strong></i></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3">We Provide</div>
+    <div class="col-xs-9">
+      <ul>
+        <li>Radon Testing</li>
+        <li>Air Testing for Fungus and Mold</li>
+        <li>Annual Testing and Post Testing</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3">When to Call</div>
+    <div class="col-xs-9">
+      <ul>
+        <li>Before Purchasing a Home</li>
+        <li>Before Selling a Home</li>
+        <li>Unsure About the Air Quality in a Structure</li>
+        <li>Experiencing Respiratory and/or Sinus and Allergy Issues Indoors</li>
+        <li>Clearance Testing & Posting Testing</li>
+        <li>In Addition to a Home Inspection</li>
+        <li>Reassurance for Buyers, Sellers, & Realtors that the Air Quality in Home is Safe</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3">Who Uses AAQC?</div>
+    <div class="col-xs-9">
+      <ul>
+        <li>Home Owners</li>
+        <li>Realtors</li>
+        <li>Sellers</li>
+        <li>Buyers</li>
+        <li>Home Inspectors</li>
+        <li>Commercial Owners/Realtors</li>
+      </ul>
+    </div>
+  </div>
 </div>
