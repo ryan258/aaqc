@@ -4,6 +4,20 @@ $blue: #049EDC;
 $green: #8CC63C;
 $font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 
+
+.navbar-brand {
+	float: none;
+	height: auto;
+}
+
+.navbar-nav li a {
+	font-weight: bold;
+}
+
+.navbar-brand>img {
+  max-width: 150px;
+}
+
 body {
 	color: $black;
 }
@@ -11,4 +25,58 @@ body {
 h1 {
 	font-size: 16px;
 	color: $grey;
+}
+
+.jumbotron {
+	background-color: $blue;
+	color: white;
+}
+
+.inset-text {
+    /* Shadows are visible under slightly transparent text color */
+    color: rgba(255,255,255, 0.8);
+    text-shadow: 1px 4px 6px #000, 0 0 0 #def, 1px 4px 6px #000;
+}
+/* Don't show shadows when selecting text */
+::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
+::selection { background: #5af; color: #fff; text-shadow: none; }
+
+
+.site-footer {
+	background-color: $green;
+	color: $black;
+	padding: 1em;
+	.footer-title {
+		font-weight: bold;
 	}
+	.text {
+		font-size: 1em;
+	}
+}
+
+
+//page specific
+
+.process-step {
+	display: block;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+
+  -moz-border-radius: 30px; /* or 50% */
+  border-radius: 30px; /* or 50% */
+
+  background-color: $green;
+  color: white;
+  margin: 0 auto;
+  font-size: 2em;
+}
+
+//min-width: 768
+
+@media (min-width: 768px) {
+.navbar-nav>li>a {
+  padding-top: 55px;
+  padding-bottom: 35px;
+}
+}
