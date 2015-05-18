@@ -4,20 +4,22 @@ title: Mold & Radon News in Minnesota
 meta: We care about the quality of your air, so we keep up to speed on what's going on.
 ---
 
-<div class="container">
-	<div class="row">
-		<div class="col-sm-12">
-			<h1>{{page.title}}</h1>
-			<p>{{page.meta}}</p>
-			<ul class="list-unstyled">
-				{% for post in site %}
-				<li>
-					<h2><a href="">{{post.title}}</a></h2>
-					<p>{{post.meta}}</p>
-				</li>
-				{% endfor %}
-			</ul>
-			<p class="text-center">Oh potatos....</p>
+<div class="page-news">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1>{{page.title}}</h1>
+				<p>{{page.meta}}</p>
+				<ul class="list-unstyled">
+					{% for post in site %}
+					<li>
+						<h2><a href="">{{post.title}}</a></h2>
+						<p>{{post.meta}}</p>
+					</li>
+					{% endfor %}
+				</ul>
+				<p class="text-center">Oh potatos....</p>
+			</div>
 		</div>
 	</div>
 </div>
