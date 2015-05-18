@@ -14,6 +14,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+        <li class="{% if page.url == '/who' %}active{% endif %}"><a href="{{site.baseurl}}/who">Who We Serve</a></li>
         <li class="{% if page.url == '/iaq-testing-process' %}active{% endif %}"><a href="{{site.baseurl}}/iaq-testing-process">Testing Process</a></li>
         <li class="{% if page.url == '/mold' %}active{% endif %}"><a href="{{site.baseurl}}/mold">Mold</a></li>
         <li class="{% if page.url == '/radon' %}active{% endif %}"><a href="{{site.baseurl}}/radon">Radon</a></li>
