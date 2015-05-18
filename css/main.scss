@@ -32,6 +32,10 @@ h1 {
 	color: white;
 }
 
+.jumbotron a.phone-number {
+	font-size: 2em;
+}
+
 .inset-text {
     /* Shadows are visible under slightly transparent text color */
     color: rgba(255,255,255, 0.8);
@@ -72,9 +76,17 @@ h1 {
   font-size: 2em;
 }
 
+//max-width: 768
+
+@media all and (max-width: 767) {
+	.navbar-brand>img {
+	  margin-left: 15px;
+	}
+}
+
 //min-width: 768
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
 .navbar-nav>li>a {
   padding-top: 55px;
   padding-bottom: 35px;

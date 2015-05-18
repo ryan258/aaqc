@@ -1,6 +1,6 @@
 # Site settings
 title: Advanced Air Quality Consultants
-email: your-email@domain.com
+email: doug@aaqcmn.com
 description: > # this means to ignore newlines until "baseurl:"
   Advanced Air Quality Consultants provides industrial grade testing to home and commercial real estate owners throughout the states of Minnesota.
 baseurl: "http://www.aaqcmn.com" # the subpath of your site, e.g. /blog/
