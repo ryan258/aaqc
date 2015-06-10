@@ -22,18 +22,21 @@ body {
 	color: $black;
 }
 
-h1 {
-	font-size: 16px;
-	color: $grey;
+.page-content {
+	padding-bottom: 1.5em;
 }
 
-.well {
-	background-color: transparent;
+h1 {
+	/*font-size: 16px;*/
+	color: $grey;
 }
 
 .jumbotron {
 	background-color: $blue;
 	color: white;
+	.btn-default {
+
+	}
 }
 
 .jumbotron a.phone-number {
@@ -58,12 +61,16 @@ h1 {
 		font-weight: bold;
 	}
 	.text {
-		font-size: 1em;
+		font-size: 1.15em;
 	}
 }
 
 
 //page specific
+
+.page-process > .container .row > * {
+	padding: 1em;
+}
 
 .process-step {
 	display: block;

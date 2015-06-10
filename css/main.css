@@ -11,12 +11,12 @@
 body {
   color: #4b595e; }
 
-h1 {
-  font-size: 16px;
-  color: #747274; }
+.page-content {
+  padding-bottom: 1.5em; }
 
-.well {
-  background-color: transparent; }
+h1 {
+  /*font-size: 16px;*/
+  color: #747274; }
 
 .jumbotron {
   background-color: #049EDC;
@@ -48,7 +48,10 @@ h1 {
   .site-footer .footer-title {
     font-weight: bold; }
   .site-footer .text {
-    font-size: 1em; }
+    font-size: 1.15em; }
+
+.page-process > .container .row > * {
+  padding: 1em; }
 
 .process-step {
   display: block;
