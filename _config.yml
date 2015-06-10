@@ -6,7 +6,9 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "http://www.aaqcmn.com" # the subpath of your site, e.g. /blog/
 url: "http://www.aaqcmn.com" # the base hostname & protocol for your site
 twitter_username: 
-github_username:  
+github_username:
+facebook_pagename: aaqcmn
+ganalytics_UA: 63972814-1
 
 # Build settings
 markdown: kramdown
