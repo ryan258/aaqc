@@ -15,6 +15,9 @@ h1 {
   font-size: 16px;
   color: #747274; }
 
+.well {
+  background-color: none; }
+
 .jumbotron {
   background-color: #049EDC;
   color: white; }
